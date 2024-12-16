@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button Content="Рапорта за тройной пропуск обхода"/>
-            <Button Content="Рапорта за Сан.Комиссию"/>
+            <Button Content="Рапорта за Сан.Комиссию" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>

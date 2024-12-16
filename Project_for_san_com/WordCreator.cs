@@ -1,5 +1,4 @@
-﻿using Microsoft.Office.Interop.Word;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,8 +10,10 @@ namespace Project_for_san_com
 {
     public class WordDocumentCreator
     {
-        public void CreateAndFillWord(string filePath, int rows)
+        public void CreateAndFillWord(string fileName,int rows)
         {
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string filePath = System.IO.Path.Combine(desktopPath, fileName);
             // Создание приложения Word (некий запуск самого ворда)
             Word.Application wordApp = new Word.Application();
             Word.Document document = null;

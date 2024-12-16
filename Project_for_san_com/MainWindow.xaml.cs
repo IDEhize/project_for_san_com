@@ -20,5 +20,11 @@ namespace Project_for_san_com
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WordDocumentCreator creator = new WordDocumentCreator();
+            creator.CreateAndFillWord("1",10);
+        }
     }
 }

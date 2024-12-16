@@ -53,7 +53,7 @@ namespace Project_for_san_com {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Project_for_san_com;V1.0.0.0;component/sancomraportwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Project_for_san_com;component/sancomraportwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SanComRaportWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
