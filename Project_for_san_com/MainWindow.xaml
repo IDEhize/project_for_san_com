@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project_for_san_com"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="400" Background="White">
+        Title="Санитарная комиссия Общежития №2" Height="200" Width="400" Background="White">
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Content="Рапорта за тройной пропуск обхода"/>
+            <Button Content="Рапорта за тройной пропуск обхода" Click="Button_Click_1"/>
             <Button Content="Рапорта за Сан.Комиссию" Click="Button_Click"/>
         </StackPanel>
     </Grid>

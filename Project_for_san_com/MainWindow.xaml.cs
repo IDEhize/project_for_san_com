@@ -23,8 +23,18 @@ namespace Project_for_san_com
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            WordDocumentCreator creator = new WordDocumentCreator();
-            creator.CreateAndFillWord("1",10);
+            SanComRaportWindow sanComRaportWindow = new SanComRaportWindow();
+            sanComRaportWindow.Show();
+            this.Close();
+            //WordDocumentCreator creator = new WordDocumentCreator();
+            //creator.CreateAndFillWord("1",10);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            RaportN raportN = new RaportN();
+            raportN.Show();
+            this.Close();
         }
     }
 }
